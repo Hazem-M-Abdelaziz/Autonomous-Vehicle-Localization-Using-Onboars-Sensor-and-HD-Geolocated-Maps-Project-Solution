@@ -29,5 +29,3 @@ followingPosesX = xDataFollowing.followingPosesX;
 followingPosesY = yDataFollowing.followingPosesY;
 followingPosesT = yawDataFollowing.followingPosesT;
 
-%Setting Time sample
-Ts = 30/60;
