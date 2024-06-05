@@ -34,7 +34,7 @@ Accuracy score file used to evaluate different techniques normalized by the posi
 
 ### ADT Localization ###
 Final folder in the Repo. that includes:
-1. ADTLocalization Folder (Localization in Normal Weather Conditions with constant GPS Accuracy):
+* ADTLocalization Folder (Localization in Normal Weather Conditions with constant GPS Accuracy):
   * ADT_Localization.mlx: MATLAB Live Script for Autonomous Vehicle Localization using IMU, INS, GPS, Camera, and Lidar sensors.
   * ADT_Localization.pdf: PDF document of the ADT_Localization Script including outputs.
   * ADT_SimulinkModel.slx: Simulink Model for an Ego Vehicle in a US City Block Map with IMU, INS, GPS, Camera, and Lidar sensors.
