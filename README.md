@@ -52,7 +52,7 @@ Accuracy score file used to evaluate different techniques normalized by the posi
 In this directory, files relevant to vehicle localization in US City Block Map:
 
 <details>
-<summary> Contents</summary>
+<summary><strong> Contents </strong></summary>
   
   - ADT_Localization.mlx: MATLAB Live Script facilitating vehicle localization using a combination of IMU, INS, GPS, camera, and LiDAR sensors.
   - ADT_Localization.pdf: A PDF document presenting the content of the ADT_Localization script along with its outputs.
