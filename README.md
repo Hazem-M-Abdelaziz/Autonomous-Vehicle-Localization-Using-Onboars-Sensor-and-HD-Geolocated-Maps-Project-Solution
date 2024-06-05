@@ -52,7 +52,7 @@ Accuracy score file used to evaluate different techniques normalized by the posi
 In this directory, files relevant to Autonomous Vehicle localization in US City Block Map using MATLAB toolboxes and Unreal Engine-based simulator in ADT to achieve high precision Localization: 
 
 <details>
-<summary><strong> Contents </strong></summary>
+<summary><strong> This comprises: </strong></summary>
   
   - ADT_Localization.mlx: MATLAB Live Script facilitating vehicle localization using a combination of IMU, INS, GPS, camera, and LiDAR sensors.
   - ADT_Localization.pdf: A PDF document presenting the content of the ADT_Localization script along with its outputs.
