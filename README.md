@@ -70,11 +70,8 @@ In this directory, files relevant to Autonomous Vehicle localization in US City 
 ## References
 
 1. [A Survey of 3D LiDAR and Camera Fusion Techniques for Autonomous Driving](https://arxiv.org/abs/1711.05805) 
-
 2. [State Estimation for Robotics](http://asrl.utias.utoronto.ca/~tdb/bib/barfoot_ser17.pdf) 
-
 3. [Kalman Filtering: Theory and Practice Using MATLAB](https://www.researchgate.net/publication/243786641_Kalman_filtering_theory_and_practice_using_MATLAB) 
-
 4. [Probabilistic Robotics](https://docs.ufpr.br/~danielsantos/ProbabilisticRobotics.pdf) 
 
 
