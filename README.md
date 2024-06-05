@@ -27,13 +27,24 @@ in this repository we discuss a sequence in which we progress from getting start
 First folder of the Repo. It describes itself as getting familiar with tools in hand and opening up to the toolboxes with some trials as scripts to start working with different block and data.
 The aim of this folder is to get used to the ADT and try different block
 
-### KITTI ###
+### KITTI Localization ###
 Second folder of the Repo. that includes the work for KITTI dataset with a paper provided by karlsruhe institute of technology to describe the dataset, KITTI_Localization is the live script containing the sequence of processing in some dataset which requires a path for both Synchronized, Unsynced dataset, and directory in which (fuzzy systems, GPS converters, Accuracy score function) exists, it also includes a pdf file saved for certain data-set used.
 Fuzzy inference systems used to generate adaptive weight for different sensors (GPS, Lidar, and Camera) used in adaptive filter to adapt with sensory data for some environmental changes.
 Accuracy score file used to evaluate different techniques normalized by the position accuracy of the gps data.
 
-### ADT ###
-Third and final folder of the Repo. that includes a 3 vehicles set-point (Ego Vehicle - Following Vehicle - Follower Vehicle) following same path as well as sensor-based Localization model for single sensor Localization using matlab scripts and simulink as well as separated files to handle point cloud (Registration and Matching), and for the fusion folder it contains seperate fusion methods used (Non-adaptive).
-the aim of this folder is to dive deep into using tools and skills obtianed from the first folder to create full scenes and test Sensor-based localization and combining data in different fusion techniques.
-
+### ADT Localization ###
+Final folder of the Repo. that includes:  
+1. ADTLocalization Folder
+Localization in Normal Weather Conditions with constant GPS Accuracy
+  * ADT_Localization.mlx: MATLAB Live Script for Autonomous Vehicle Localization using IMU, INS, GPS, Camera, and Lidar sensors.
+  * ADT_Localization.pdf: PDF document of the ADT_Localization Script including outputs.
+  * ADT_SimulinkModel.slx: Simulink Model for an Ego Vehicle in a US City Block Map with IMU, INS, GPS, Camera, and Lidar sensors.
+  * ADTOutput.mat: Output workspace of the ADT_Localization Script and ADT_SimulinkModel.
+  * variablesInitialization.m: Script for loading vehicle pose, weather conditions, GPS velocity and accuracy, and setting camera and lidar parameters.
+  * GPSVelocities.mat: GPS X and Y velocities from IMU output velocity.
+  * PcdR.mat: Extracted Lidar Reflectivity output from the Lidar Simulink block.
+  * PoseUSCityBlock.mat: Ego vehicle time sampling and pose (X, Y, Yaw).
+  * helperFromWorkspace.m: Script for passing position synchronized every sample time into the model.
+  * convertVideoToFrames.m: Script for converting camera video into grayscale frames.
+  * lla_to_enu.mlx: MATLAB Live Script for converting LLA coordinates into ENU.
 
