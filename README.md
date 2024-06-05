@@ -11,8 +11,10 @@ in this repository we discuss a sequence in which we progress from getting start
 ## Repo. Hierarchy.
 ### Getting familiar with toolboxes
 
+The aim of this folder is to get used to the ADT and try different block
+
 ### ADT
-First folder of the Repo. that includes a 3 vehicles set-point (Ego Vehicle - Following Vehicle - Follower Vehicle) following same path as well as sensor-based Localization model for single sensor Localization using matlab scripts and simulink as well as separated files to handle point cloud (Registration and Matching), and for the fusion folder it contains seperate fusion methods used (Non-adaptive).
-the aim of this folder is to get used to the ADT toolbox and try different blocks and algorithms.
+Secons folder of the Repo. that includes a 3 vehicles set-point (Ego Vehicle - Following Vehicle - Follower Vehicle) following same path as well as sensor-based Localization model for single sensor Localization using matlab scripts and simulink as well as separated files to handle point cloud (Registration and Matching), and for the fusion folder it contains seperate fusion methods used (Non-adaptive).
+the aim of this folder is to dive deep into using tools and skills obtianed from the first folder to create full scenes and test Sensor-based localization and combining data in different fusion techniques.
 
 ### KITTI
