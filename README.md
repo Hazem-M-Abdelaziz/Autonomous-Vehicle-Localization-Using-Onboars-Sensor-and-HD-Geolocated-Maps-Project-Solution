@@ -9,6 +9,6 @@ This is our proposed solution repository for Project #20 (Autonomous Vehicle Loc
 in this repository we discuss a sequence in which we progress from getting started with the challenge and the used toolboxes to evaluating different localization techniques on both [Synthatic scenes provided by ADT & Real-time driving scenarios from KITTI data-set]
 
 ## Repo. Hierarchy.
-#### ADT
+### ADT
 First folder of the Repo. that includes a 3 vehicles set-point (Ego Vehicle - Following Vehicle - Follower Vehicle) following same path as well as sensor-based Localization model for single sensor Localization using matlab scripts and simulink as well as separated files to handle point cloud (Registration and Matching), and for the fusion folder it contains seperate fusion methods used (Non-adaptive).
 the aim of this folder is to get used to the ADT toolbox and try different blocks and algorithms.
