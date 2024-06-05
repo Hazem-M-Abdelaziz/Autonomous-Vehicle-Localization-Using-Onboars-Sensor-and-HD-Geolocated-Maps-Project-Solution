@@ -14,7 +14,10 @@ First folder of the Repo. It describes itself as getting familiar with tools in 
 The aim of this folder is to get used to the ADT and try different block
 
 ### ADT
-Secons folder of the Repo. that includes a 3 vehicles set-point (Ego Vehicle - Following Vehicle - Follower Vehicle) following same path as well as sensor-based Localization model for single sensor Localization using matlab scripts and simulink as well as separated files to handle point cloud (Registration and Matching), and for the fusion folder it contains seperate fusion methods used (Non-adaptive).
+Second folder of the Repo. that includes a 3 vehicles set-point (Ego Vehicle - Following Vehicle - Follower Vehicle) following same path as well as sensor-based Localization model for single sensor Localization using matlab scripts and simulink as well as separated files to handle point cloud (Registration and Matching), and for the fusion folder it contains seperate fusion methods used (Non-adaptive).
 the aim of this folder is to dive deep into using tools and skills obtianed from the first folder to create full scenes and test Sensor-based localization and combining data in different fusion techniques.
 
 ### KITTI
+Third and final folder of the Repo. that includes the work for KITTI dataset with a paper provided by karlsruhe institute of technology to describe the dataset, KITTI_Localization is the live script containg the sequence of processing in some dataset which requires a path for both Synchronized, Unsynced dataset, and directory in which (fuzzy systems, GPS converters, Accuracy score function) exists, it also includes a pdf file saved for certian data-set used.
+Fuzzy inference systems used to generate adaptive weight for different sensors (GPS, Lidar, and Camera) used in adaptive filter to adapt with sensory data for some environmental changes.
+Accuracy score file used to evaluate different techniques normalized by the position accuracy of the gps data.
