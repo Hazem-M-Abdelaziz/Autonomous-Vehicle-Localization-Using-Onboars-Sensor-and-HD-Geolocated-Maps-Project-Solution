@@ -58,6 +58,7 @@ In this directory, files relevant to vehicle localization under normal weather c
   * convertVideoToFrames.m: Script facilitating the conversion of camera video into grayscale frames.
   * lla_to_enu.mlx: MATLAB Live Script enabling the conversion of Latitude, Longitude, and Altitude (LLA) coordinates into East, North, Up (ENU) coordinates.
 
+
 ADTLocalizationDiffWeatherConditions Folder
 
 This directory comprises files relevant to vehicle localization under rainy and low-light track conditions, featuring dynamically varying GPS accuracy. It includes the same files as those in the ADTLocalization folder, with additional files tailored to the sensors variances:
