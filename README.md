@@ -76,7 +76,7 @@ In this directory, files relevant to vehicle localization in US City Block Map:
       <a href="https://www.linkedin.com/in/hazem-mohsen-739b14245/" target="_blank">
         <img src="https://img.shields.io/badge/LinkedIn-informational?style=flat&logo=linkedin&logoColor=white&color=0077B5" alt="LinkedIn">
       </a>
-      <a href="1900973@eng.asu.edu.eg" target="_blank">
+      <a href="mailto:1900973@eng.asu.edu.eg" target="_blank">
         <img src="https://img.shields.io/badge/Outlook-red?style=flat&logo=gmail&logoColor=white" alt="Outlook">
       </a>
     </td>
@@ -87,7 +87,7 @@ In this directory, files relevant to vehicle localization in US City Block Map:
       <a href="https://linkedin.com/in/yousra-adly-7a0905238" target="_blank">
         <img src="https://img.shields.io/badge/LinkedIn-informational?style=flat&logo=linkedin&logoColor=white&color=0077B5" alt="LinkedIn">
       </a>
-      <a href="yousra.adly17@gmail.com" target="_blank">
+      <a href="mailto:yousra.adly17@gmail.com" target="_blank">
         <img src="https://img.shields.io/badge/Gmail-red?style=flat&logo=gmail&logoColor=white" alt="Gmail">
       </a>
     </td>
