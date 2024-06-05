@@ -10,7 +10,7 @@ in this repository we discuss a sequence in which we progress from getting start
 
 ## Repo. Hierarchy.
 ### Getting familiar with toolboxes
-
+First folder of the Repo. It describes itself as getting familiar with tools in hand and opening up to the toolboxes with some trials as scripts to start working with different block and data.
 The aim of this folder is to get used to the ADT and try different block
 
 ### ADT
