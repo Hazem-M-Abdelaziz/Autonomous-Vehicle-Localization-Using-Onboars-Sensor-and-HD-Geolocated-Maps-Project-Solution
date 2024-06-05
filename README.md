@@ -49,7 +49,7 @@ Fuzzy inference systems used to generate adaptive weight for different sensors (
 Accuracy score file used to evaluate different techniques normalized by the position accuracy of the gps data.
 
 ### ADT Localization ###
-In this directory, files relevant to vehicle localization in US City Block Map:
+In this directory, files relevant to Autonomous Vehicle localization in US City Block Map using MATLAB toolboxes and Unreal Engine-based simulator in ADT to achieve high precision Localization: 
 
 <details>
 <summary><strong> Contents </strong></summary>
