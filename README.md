@@ -57,3 +57,10 @@ In this directory, files relevant to vehicle localization under normal weather c
   * helperFromWorkspace.m: Script designed for passing synchronized positional data into the model at every sample time.
   * convertVideoToFrames.m: Script facilitating the conversion of camera video into grayscale frames.
   * lla_to_enu.mlx: MATLAB Live Script enabling the conversion of Latitude, Longitude, and Altitude (LLA) coordinates into East, North, Up (ENU) coordinates.
+
+ADTLocalizationDiffWeatherConditions Folder
+
+This directory comprises files relevant to vehicle localization under rainy and low-light track conditions, featuring dynamically varying GPS accuracy. It includes the same files as those in the ADTLocalization folder, with additional files tailored to the sensors variances:
+  * camWeights_FIS.mlx: Function aimed at adjusting weights based on average frame intensity utilizing Fuzzy Logic.
+  * gpsWeights_FIS.mlx: Function facilitating the adjustment of GPS variances based on positional accuracy (PosAcc) and the number of satellites (NumSats), employing Fuzzy Logic.
+  * LidarWeightFIS.mlx: Function dedicated to adjusting weights based on average point cloud reflectance, evaluating various techniques, including accuracy scoring for real-time data with GPS and its positional accuracy, alongside absolute difference from setpoint in simulated scene data.
