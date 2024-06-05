@@ -34,16 +34,16 @@ in this repository we discuss a sequence in which we progress from getting start
 
 ## Repo. Hierarchy ##
 ### Getting familiar with toolboxes
-First folder in the Repo. It describes itself as getting familiar with tools in hand and opening up to the toolboxes with some trials as scripts to start working with different block and data.
-The aim of this folder is to get used to the ADT and try different block
+This folder describes itself as getting familiar with tools in hand and opening up to the toolboxes with some trials as scripts to start working with different blocks and data.
+The aim of this folder is to get used to the ADT and try different Sensors with their dependency Simulink blocks.
 
 ### KITTI Localization ###
-Second folder in the Repo. that includes the work for KITTI dataset with a paper provided by karlsruhe institute of technology to describe the dataset, KITTI_Localization is the live script containing the sequence of processing in some dataset which requires a path for both Synchronized, Unsynced dataset, and directory in which (fuzzy systems, GPS converters, Accuracy score function) exists, it also includes a pdf file saved for certain data-set used.
+It includes the work for KITTI dataset with a paper provided by karlsruhe institute of technology to describe the dataset, KITTI_Localization is the live script containing the sequence of processing in some dataset which requires a path for both Synchronized, Unsynced dataset, and directory in which (fuzzy systems, GPS converters, Accuracy score function) exists, it also includes a pdf file saved for certain data-set used.
 Fuzzy inference systems used to generate adaptive weight for different sensors (GPS, Lidar, and Camera) used in adaptive filter to adapt with sensory data for some environmental changes.
 Accuracy score file used to evaluate different techniques normalized by the position accuracy of the gps data.
 
 ### ADT Localization ###
-Final folder in the Repo. that includes:
+This comprises:
 * ADTLocalization Folder (Localization in Normal Weather Conditions and constant GPS Accuracy):
   * ADT_Localization.mlx: MATLAB Live Script for Autonomous Vehicle Localization using IMU, INS, GPS, Camera, and Lidar sensors.
   * ADT_Localization.pdf: PDF document of the ADT_Localization Script including outputs.
