@@ -4,9 +4,9 @@
 
 ## Table of Contents
 - [Challenge Overview](#challenge-overview)
-- [Aim of this Repo](#aim-of-this-repo)
+- [Aim of this Repository](#aim-of-this-repository)
 - [Processing Sequence](#processing-sequence)
-- [Repo Hierarchy](#repo-hierarchy)
+- [Repository Hierarchy](#repository-hierarchy)
   - [Getting familiar with toolboxes](#getting-familiar-with-toolboxes)
   - [KITTI Localization](#kitti-localization)
   - [ADT Localization](#adt-localization)
@@ -14,7 +14,7 @@
 ## Challenge Overview ##
 Autonomous vehicles are revolutionizing the way the current transportation system works and many companies are investing on this mega-trend technology to secure a share in this market. Researchers and engineers are combining efforts to achieve a full driving automation (Level 5) system that is safe and comfortable for the passengers. Localization is a key component of an autonomous vehicle to enable autonomous driving by processing and fusing sensory data for accurate results and making adaptive models to handle different individual sensors' errors to come up with highly dependable estimates.
 
-## Aim of this Repo. ##
+## Aim of this Repository ##
 This is our proposed solution repository for Project #20 (Autonomous Vehicle Localization Using Onboard Sensors and HD Geolocated Maps) as a team consisting of two senior Mechatronics Students (Hazem Mohsen - Yousra Adly) - Faculty of Engineering Ain Shams University, Egypt. under the supervision of Prof. Mohammed Ibrahim Awad.
 in this repository we discuss a sequence in which we progress from getting started with the challenge and the used toolboxes to evaluating different localization techniques on both [Synthatic scenes provided by ADT & Real-time driving scenarios from KITTI data-set]
 
@@ -32,7 +32,7 @@ in this repository we discuss a sequence in which we progress from getting start
   * Lidar weight FIS: Adjusting weights based on average point cloud reflectance.
 *Evaluating different techniques (Using accuracy score for real-time data with gps and its position accuracy and absolute difference from setpoint in simulated scene data).
 
-## Repo. Hierarchy ##
+## Repository Hierarchy ##
 ### Getting familiar with toolboxes
 This folder describes itself as getting familiar with tools in hand and opening up to the toolboxes with some trials as scripts to start working with different blocks and data.
 The aim of this folder is to get used to the ADT and try different Sensors with their dependency Simulink blocks.
