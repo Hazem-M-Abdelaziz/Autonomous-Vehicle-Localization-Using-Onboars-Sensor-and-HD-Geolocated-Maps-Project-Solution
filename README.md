@@ -12,6 +12,8 @@
   - [Getting familiar with toolboxes](#getting-familiar-with-toolboxes)
   - [KITTI Localization](#kitti-localization)
   - [ADT Localization](#adt-localization)
+- [References](#references)
+- [Contact](#contact)
 
 </details>
 
@@ -46,10 +48,10 @@ The aim of this folder is to get used to the ADT and try different Sensors with 
 <summary><strong> This comprises: </strong></summary>
   
   - Sensor_Fusion:
-    - Average_Estimation_SensorFusion.mlx:
-    - SensorFusion.mlx:
-    - StandardKalmanFilter.mlx:
-    - WeightedSumEstimation.mlx:
+    - Average_Estimation_SensorFusion.mlx: live script for getting average estimates between given data. 
+    - SensorFusion.mlx: live script for different fusion techniques together (Average-Weighted average-KF).
+    - StandardKalmanFilter.mlx: live script for getting Kalman Filter estimates between given data.
+    - WeightedSumEstimation.mlx: live script for getting weighted average estimates between given data.
   - Sensor_States:
     - GPSSensorStates:
       - GPSBasedLocalization.mlx: live script for GPS-Based Localization sequence.
