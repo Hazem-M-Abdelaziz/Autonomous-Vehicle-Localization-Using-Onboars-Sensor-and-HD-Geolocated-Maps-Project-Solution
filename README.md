@@ -42,6 +42,32 @@ in this repository we discuss a sequence in which we progress from getting start
 ### Getting familiar with toolboxes
 This folder describes itself as getting familiar with tools in hand and opening up to the toolboxes with some trials as scripts to start working with different blocks and data.
 The aim of this folder is to get used to the ADT and try different Sensors with their dependency Simulink blocks.
+<details>
+<summary><strong> This comprises: </strong></summary>
+  
+  - Sensor_Fusion:
+    - Average_Estimation_SensorFusion.mlx:
+    - SensorFusion.mlx:
+    - StandardKalmanFilter.mlx:
+    - WeightedSumEstimation.mlx:
+  - Sensor_States:
+    - GPSSensorStates:
+      - GPSBasedLocalization.mlx: live script for GPS-Based Localization sequence.
+      - GPSModel.slx: Simulink model contains GPS-Based Localization blocks.
+    - MonoCameraSensorStates:
+      - CameraLoc.mlx: live script for Camera-Based Localization sequence.
+      - CameraLoc.pdf: document containing CameraLoc script data and output.
+      - cameraModel.slx: Simulink model contains Camera-Based Localization blocks.
+      - convertVideoToFrames.m: script for a function converting video captured to frames.
+      - variablesInitialization.m: script for a function to initialize parameters data.
+    - IMU_INS_States.slx: Simulink model contains IMU-Based Localization blocks.
+    - VisualizePointCloud.m: script for a function to visualize point cloud data.
+    - lidarBasedLocalization.mlx:  live script for Lidar-Based Localization sequence.
+    - lidarStates.slx: Simulink model contains Lidar-Based Localization blocks.
+    - register_point_clouds_icp.m: script for a function performing PCD matching between two frames based on ICP algorithm.
+    - sceneElements.slx: Simulink model used to test and change some of the ADT scene elements.
+    - (Setpoints mat files): mat files contains three vehicle trajectory set points following the same path.
+</details>
 
 ### KITTI Localization ###
 It includes the work for KITTI dataset provided by karlsruhe institute of technology, Germany, this folder includes a solution for Localization problem for given datasets.
@@ -83,7 +109,8 @@ In this directory, files relevant to Autonomous Vehicle localization in US City 
 4. [Probabilistic Robotics](https://docs.ufpr.br/~danielsantos/ProbabilisticRobotics.pdf)
 5. [Automated Driving Toolbox Documentation](https://www.mathworks.com/help/driving/)
 6. [Fuzzy Logic Toolbox Documentation](https://www.mathworks.com/help/fuzzy/)
-7. [Computer Vision Toolbox Documentation](https://www.mathworks.com/help/vision/) 
+7. [Computer Vision Toolbox Documentation](https://www.mathworks.com/help/vision/)
+8. [Prof. Cyrill Stachniss Youtube channel](https://www.youtube.com/@CyrillStachniss).
 
 
 # Contact
