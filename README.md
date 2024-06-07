@@ -19,14 +19,15 @@
 
 
 
-## Challenge Overview ##
+## Challenge Overview 🎯
 Autonomous vehicles are revolutionizing the way the current transportation system works and many companies are investing on this mega-trend technology to secure a share in this market. Researchers and engineers are combining efforts to achieve a full driving automation (Level 5) system that is safe and comfortable for the passengers. Localization is a key component of an autonomous vehicle to enable autonomous driving by processing and fusing sensory data for accurate results and making adaptive models to handle different individual sensors' errors to come up with highly dependable estimates.
 
-## Aim of Repository ##
+## Aim of Repository 📈
 This is our proposed solution repository for Project #20 (Autonomous Vehicle Localization Using Onboard Sensors and HD Geolocated Maps) as a team consisting of two senior Mechatronics Students (Hazem Mohsen - Yousra Adly) - Faculty of Engineering Ain Shams University, Egypt. under the supervision of Prof. Mohammed Ibrahim Awad.
 in this repository we discuss a sequence in which we progress from getting started with the challenge and the used toolboxes to evaluating different localization techniques on both [Synthatic scenes provided by ADT & Real-time driving scenarios from KITTI data-set]
+For more information, you can refer to our video ⭐ **[Project Workflow Video](https://drive.google.com/file/d/1lvFlJ5YkYl13pUCHZWm5uXgVP9oyAe3H/view?usp=sharing)**.
 
-## Processing Sequence ##
+## Processing Sequence ⛓️
 * Stroing/Loading data (Whether real-time driving data or synthetic data from simulated scene).
 * Sensor-Based Localization:
   * IMU: Following an integrator model to obtain pose data.
@@ -40,9 +41,9 @@ in this repository we discuss a sequence in which we progress from getting start
   * Lidar weight FIS: Adjusting weights based on average point cloud reflectance.
 *Evaluating different techniques (Using accuracy score for real-time data with gps and its position accuracy and absolute difference from setpoint in simulated scene data).
 
-## Repository Hierarchy ##
+## Repository Hierarchy 📁
 ### Getting familiar with toolboxes
-This folder describes itself as getting familiar with tools in hand and opening up to the toolboxes with some trials as scripts to start working with different blocks and data.
+📂 This folder describes itself as getting familiar with tools in hand and opening up to the toolboxes with some trials as scripts to start working with different blocks and data.
 The aim of this folder is to get used to the ADT and try different Sensors with their dependency Simulink blocks.
 <details>
 <summary><strong> This comprises: </strong></summary>
@@ -72,7 +73,7 @@ The aim of this folder is to get used to the ADT and try different Sensors with 
 </details>
 
 ### KITTI Localization ###
-The work for KITTI dataset provided by karlsruhe institute of technology, Germany, this folder includes Localization problem solution for datasets.
+📂 The work for KITTI dataset provided by karlsruhe institute of technology, Germany, this folder includes Localization problem solution for datasets.
 <details>
 <summary><strong> This comprises: </strong></summary>
   
@@ -88,7 +89,7 @@ The work for KITTI dataset provided by karlsruhe institute of technology, German
 </details>
 
 ### ADT Localization ###
-In this directory, files relevant to Autonomous Vehicle localization in US City Block Map using MATLAB toolboxes and Unreal Engine-based simulator in ADT to achieve high precision Localization.
+📂 In this directory, files relevant to Autonomous Vehicle localization in US City Block Map using MATLAB toolboxes and Unreal Engine-based simulator in ADT to achieve high precision Localization.
 
 <details>
 <summary><strong> This comprises: </strong></summary>
@@ -104,7 +105,7 @@ In this directory, files relevant to Autonomous Vehicle localization in US City 
   - lla_to_enu.mlx: MATLAB Live Script enabling the conversion of Latitude, Longitude, and Altitude (LLA) coordinates into East, North, Up (ENU) coordinates.
 </details>
 
-## References
+## References 🌐
 1. [A Survey of 3D LiDAR and Camera Fusion Techniques for Autonomous Driving](https://arxiv.org/abs/1711.05805) 
 2. [State Estimation for Robotics](http://asrl.utias.utoronto.ca/~tdb/bib/barfoot_ser17.pdf) 
 3. [Kalman Filtering: Theory and Practice Using MATLAB](https://www.researchgate.net/publication/243786641_Kalman_filtering_theory_and_practice_using_MATLAB)
@@ -115,7 +116,7 @@ In this directory, files relevant to Autonomous Vehicle localization in US City 
 8. [Prof. Cyrill Stachniss Youtube channel](https://www.youtube.com/@CyrillStachniss).
 
 
-# Contacts
+## Contacts 📧
 
 <table>
   <tr>
