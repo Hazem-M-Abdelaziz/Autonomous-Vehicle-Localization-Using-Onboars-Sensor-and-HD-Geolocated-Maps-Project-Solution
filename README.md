@@ -72,7 +72,7 @@ The aim of this folder is to get used to the ADT and try different Sensors with 
 </details>
 
 ### KITTI Localization ###
-It includes the work for KITTI dataset provided by karlsruhe institute of technology, Germany, this folder includes Localization problem solution for datasets.
+The work for KITTI dataset provided by karlsruhe institute of technology, Germany, this folder includes Localization problem solution for datasets.
 <details>
 <summary><strong> This comprises: </strong></summary>
   
