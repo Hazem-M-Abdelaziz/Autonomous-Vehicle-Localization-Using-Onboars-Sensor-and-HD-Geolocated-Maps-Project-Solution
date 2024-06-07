@@ -44,7 +44,7 @@ This folder describes itself as getting familiar with tools in hand and opening 
 The aim of this folder is to get used to the ADT and try different Sensors with their dependency Simulink blocks.
 
 ### KITTI Localization ###
-It includes the work for KITTI dataset provided by karlsruhe institute of technology, Germany. this folder includes a solution for Localization problem for given datasets.
+It includes the work for KITTI dataset provided by karlsruhe institute of technology, Germany, this folder includes a solution for Localization problem for given datasets.
 <details>
 <summary><strong> This comprises: </strong></summary>
   
