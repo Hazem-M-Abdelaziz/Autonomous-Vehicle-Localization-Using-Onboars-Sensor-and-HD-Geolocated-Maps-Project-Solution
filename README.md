@@ -13,7 +13,7 @@
   - [KITTI Localization](#kitti-localization)
   - [ADT Localization](#adt-localization)
 - [References](#references)
-- [Contact](#contact)
+- [Contacts](#contacts)
 
 </details>
 
@@ -115,7 +115,7 @@ In this directory, files relevant to Autonomous Vehicle localization in US City 
 8. [Prof. Cyrill Stachniss Youtube channel](https://www.youtube.com/@CyrillStachniss).
 
 
-# Contact
+# Contacts
 
 <table>
   <tr>
