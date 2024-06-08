@@ -25,7 +25,7 @@ Autonomous vehicles are revolutionizing the way the current transportation syste
 ## Aim of Repository 📈
 This is our proposed solution repository for Project #20 (Autonomous Vehicle Localization Using Onboard Sensors and HD Geolocated Maps) as a team consisting of two senior Mechatronics Students (Hazem Mohsen - Yousra Adly) - Faculty of Engineering Ain Shams University, Egypt. under the supervision of Prof. Mohammed Ibrahim Awad.
 in this repository we discuss a sequence in which we progress from getting started with the challenge and the used toolboxes to evaluating different localization techniques on both [Synthatic scenes provided by ADT & Real-time driving scenarios from KITTI data-set]
-For more information, you can refer to our video ⭐ **[Project Workflow Video](https://drive.google.com/file/d/1lvFlJ5YkYl13pUCHZWm5uXgVP9oyAe3H/view?usp=sharing)**.
+For more information, you can refer to our video ⭐ **[Project Workflow Video](https://youtu.be/tMXQNJMVf2g)**.
 
 ## Processing Sequence ⛓️
 * Stroing/Loading data (Whether real-time driving data or synthetic data from simulated scene).
