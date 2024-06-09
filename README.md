@@ -105,6 +105,14 @@ The aim of this folder is to get used to the ADT and try different Sensors with 
   - lla_to_enu.mlx: MATLAB Live Script enabling the conversion of Latitude, Longitude, and Altitude (LLA) coordinates into East, North, Up (ENU) coordinates.
 </details>
 
+## Processing with Linux-based systems ❗
+When working with Linux-based systems, some changes are required to operate correctly without any errors, when referring to some paths using '/' instead of '\', for example:
+
+Using: _grayFolderPath = strcat(dataset_path, '/image_00/data');_ ✔️
+
+Instead of: _grayFolderPath = strcat(dataset_path, '\image_00\data');_ ✖️
+
+
 ## References 🌐
 1. [A Survey of 3D LiDAR and Camera Fusion Techniques for Autonomous Driving](https://arxiv.org/abs/1711.05805) 
 2. [State Estimation for Robotics](http://asrl.utias.utoronto.ca/~tdb/bib/barfoot_ser17.pdf) 
