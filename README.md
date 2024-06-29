@@ -106,7 +106,7 @@ The aim of this folder is to get used to the ADT and try different Sensors with 
 </details>
 
 ## Processing with Linux-based systems ❗
-When working with Linux-based systems, some changes are required to operate correctly without any errors, when referring to some paths using '/' instead of '\', for example:
+When working with Linux-based systems, some changes are required to operate correctly without any errors, when referring to some paths using "/" instead of "\", for example:
 
 Using: _grayFolderPath = strcat(dataset_path, '/image_00/data');_ ✔️
 
