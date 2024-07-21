@@ -13,6 +13,7 @@
   - [KITTI Localization](#kitti-localization)
   - [ADT Localization](#adt-localization)
 - [Processing with Linux-based systems](#Processing-with-Linux-based-systems)
+- [Future Work](#Future-Work)
 - [References](#references)
 - [Contacts](#contacts)
 
@@ -100,8 +101,10 @@ The aim of this folder is to get used to the ADT and try different Sensors with 
   - ADT_SimulinkModel.slx: Simulink model illustrating an ego vehicle's dynamics within a US city block map, integrating IMU, INS, GPS, camera, and LiDAR sensors.
   - variablesInitialization.m: Script facilitating the initialization of vehicle pose, weather conditions, GPS velocity and accuracy, as well as the configuration of camera and LiDAR parameters.
   - GPSVelocities.mat: Dataset containing GPS velocities in the X and Y directions derived from IMU output velocity.
-  - PoseUSCityBlock.mat: Dataset containing ego vehicle's temporal sampling and pose data (X, Y, Yaw) within a US city block.
-  - helperFromWorkspace.m: Script designed for passing synchronized positional data into the model at every sample time.
+  - UsCityBlockPose.mat: Dataset containing ego vehicle's temporal sampling and pose data (X, Y, Yaw) within a US city block.
+  - detectAndMatchFeatures.m: Function for detecting and matching camera features using different functions.
+  - estimateMatrix.m: Function for applying esstential or fundamental matrices using inliers points.
+  - estimateRelativePose.m: Function to calculate the estimated camera pose. 
   - convertVideoToFrames.m: Script facilitating the conversion of camera video into grayscale frames.
   - lla_to_enu.mlx: MATLAB Live Script enabling the conversion of Latitude, Longitude, and Altitude (LLA) coordinates into East, North, Up (ENU) coordinates.
 </details>
@@ -113,6 +116,8 @@ Using: _grayFolderPath = strcat(dataset_path, '/image_00/data');_ ✔️
 
 Instead of: _grayFolderPath = strcat(dataset_path, '\image_00\data');_ ✖️
 
+## Future Work
+Improving camera Pose Estimation through getting the scale factor from a Fuzzy logic system depending on sensors (LiDAR - GPS - IMU) pose output. 
 
 ## References 🌐
 1. [A Survey of 3D LiDAR and Camera Fusion Techniques for Autonomous Driving](https://arxiv.org/abs/1711.05805) 
